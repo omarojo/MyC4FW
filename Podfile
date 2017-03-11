@@ -6,5 +6,5 @@ target 'MyC4FW' do
   use_frameworks!
 
   # Pods for MyC4FW
-  pod 'C4'
+  podspec :path => 'MyC4FW.podspec'
 end

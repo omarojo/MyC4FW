@@ -123,6 +123,7 @@
 		7694D3DC1E723D6300D671D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Omar Juarez Ortiz";
 				TargetAttributes = {
@@ -140,6 +141,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7694D3DB1E723D6300D671D4;
 			productRefGroup = 7694D3E61E723D6300D671D4 /* Products */;

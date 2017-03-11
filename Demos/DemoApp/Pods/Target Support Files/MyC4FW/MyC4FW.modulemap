@@ -1,0 +1,6 @@
+framework module MyC4FW {
+  umbrella header "MyC4FW-umbrella.h"
+
+  export *
+  module * { export * }
+}
