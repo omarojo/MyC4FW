@@ -1,0 +1,10 @@
+framework module MyC4FW {
+  umbrella header "MyC4FW.h"
+
+  export *
+  module * { export * }
+}
+
+module MyC4FW.Swift {
+    header "MyC4FW-Swift.h"
+}
