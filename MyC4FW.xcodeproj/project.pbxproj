@@ -11,7 +11,27 @@
 		7694D3EA1E723D6300D671D4 /* MyC4FW.h in Headers */ = {isa = PBXBuildFile; fileRef = 7694D3E81E723D6300D671D4 /* MyC4FW.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7694D3F11E723E6A00D671D4 /* SquareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7694D3F01E723E6A00D671D4 /* SquareVC.swift */; };
 		7694D41C1E72472400D671D4 /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7694D41B1E72472400D671D4 /* C4.framework */; };
+		7694D5151E738CA200D671D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7694D5141E738CA200D671D4 /* AppDelegate.swift */; };
+		7694D5171E738CA200D671D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7694D5161E738CA200D671D4 /* ViewController.swift */; };
+		7694D51A1E738CA200D671D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7694D5181E738CA200D671D4 /* Main.storyboard */; };
+		7694D51C1E738CA200D671D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7694D51B1E738CA200D671D4 /* Assets.xcassets */; };
+		7694D51F1E738CA200D671D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7694D51D1E738CA200D671D4 /* LaunchScreen.storyboard */; };
+		7694D5301E738E4500D671D4 /* C4.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7694D41B1E72472400D671D4 /* C4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7694D5311E738E4500D671D4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7694D5301E738E4500D671D4 /* C4.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3F6596353E90C7CB0D8E1189 /* Pods_MyC4FW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyC4FW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +40,14 @@
 		7694D3E91E723D6300D671D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7694D3F01E723E6A00D671D4 /* SquareVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SquareVC.swift; path = Code/SquareVC.swift; sourceTree = "<group>"; };
 		7694D41B1E72472400D671D4 /* C4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = C4.framework; path = "../../../../Library/Developer/Xcode/DerivedData/MyC4FW-dgxyvxfskkukjidehaiaebtxnurh/Build/Products/Debug-iphonesimulator/C4/C4.framework"; sourceTree = "<group>"; };
+		7694D4B71E73859A00D671D4 /* Pods_MyC4FW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_MyC4FW.framework; path = "../../../../Library/Developer/Xcode/DerivedData/MyC4FW-dgxyvxfskkukjidehaiaebtxnurh/Build/Products/Debug-iphonesimulator/Pods_MyC4FW.framework"; sourceTree = "<group>"; };
+		7694D5121E738CA200D671D4 /* DemoTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7694D5141E738CA200D671D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7694D5161E738CA200D671D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7694D5191E738CA200D671D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7694D51B1E738CA200D671D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7694D51E1E738CA200D671D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7694D5201E738CA200D671D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E04498CC341E746484A8AE5B /* Pods-MyC4FW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyC4FW.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyC4FW/Pods-MyC4FW.debug.xcconfig"; sourceTree = "<group>"; };
 		F62558143B85DDF9A49B8D6B /* Pods-MyC4FW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyC4FW.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyC4FW/Pods-MyC4FW.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -34,12 +62,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7694D50F1E738CA200D671D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3C628229359C7F1178906A30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7694D4B71E73859A00D671D4 /* Pods_MyC4FW.framework */,
 				7694D41B1E72472400D671D4 /* C4.framework */,
 				3F6596353E90C7CB0D8E1189 /* Pods_MyC4FW.framework */,
 			);
@@ -59,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				7694D3E71E723D6300D671D4 /* MyC4FW */,
+				7694D5131E738CA200D671D4 /* DemoTarget */,
 				7694D3E61E723D6300D671D4 /* Products */,
 				44226ACE881EEA63B8E21E8B /* Pods */,
 				3C628229359C7F1178906A30 /* Frameworks */,
@@ -69,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				7694D3E51E723D6300D671D4 /* MyC4FW.framework */,
+				7694D5121E738CA200D671D4 /* DemoTarget.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +119,19 @@
 				7694D3F01E723E6A00D671D4 /* SquareVC.swift */,
 			);
 			path = MyC4FW;
+			sourceTree = "<group>";
+		};
+		7694D5131E738CA200D671D4 /* DemoTarget */ = {
+			isa = PBXGroup;
+			children = (
+				7694D5141E738CA200D671D4 /* AppDelegate.swift */,
+				7694D5161E738CA200D671D4 /* ViewController.swift */,
+				7694D5181E738CA200D671D4 /* Main.storyboard */,
+				7694D51B1E738CA200D671D4 /* Assets.xcassets */,
+				7694D51D1E738CA200D671D4 /* LaunchScreen.storyboard */,
+				7694D5201E738CA200D671D4 /* Info.plist */,
+			);
+			path = DemoTarget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +168,24 @@
 			productReference = 7694D3E51E723D6300D671D4 /* MyC4FW.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		7694D5111E738CA200D671D4 /* DemoTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7694D5211E738CA200D671D4 /* Build configuration list for PBXNativeTarget "DemoTarget" */;
+			buildPhases = (
+				7694D50E1E738CA200D671D4 /* Sources */,
+				7694D50F1E738CA200D671D4 /* Frameworks */,
+				7694D5101E738CA200D671D4 /* Resources */,
+				7694D5311E738E4500D671D4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoTarget;
+			productName = DemoTarget;
+			productReference = 7694D5121E738CA200D671D4 /* DemoTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -131,6 +200,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Z9D57CYSLA;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					7694D5111E738CA200D671D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z9D57CYSLA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -149,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				7694D3E41E723D6300D671D4 /* MyC4FW */,
+				7694D5111E738CA200D671D4 /* DemoTarget */,
 			);
 		};
 /* End PBXProject section */
@@ -158,6 +233,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7694D5101E738CA200D671D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7694D51F1E738CA200D671D4 /* LaunchScreen.storyboard in Resources */,
+				7694D51C1E738CA200D671D4 /* Assets.xcassets in Resources */,
+				7694D51A1E738CA200D671D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +290,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7694D50E1E738CA200D671D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7694D5171E738CA200D671D4 /* ViewController.swift in Sources */,
+				7694D5151E738CA200D671D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7694D5181E738CA200D671D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7694D5191E738CA200D671D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7694D51D1E738CA200D671D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7694D51E1E738CA200D671D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7694D3EB1E723D6300D671D4 /* Debug */ = {
@@ -350,6 +463,32 @@
 			};
 			name = Release;
 		};
+		7694D5221E738CA200D671D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9D57CYSLA;
+				INFOPLIST_FILE = DemoTarget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Segartek.DemoTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7694D5231E738CA200D671D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9D57CYSLA;
+				INFOPLIST_FILE = DemoTarget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Segartek.DemoTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -370,6 +509,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		7694D5211E738CA200D671D4 /* Build configuration list for PBXNativeTarget "DemoTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7694D5221E738CA200D671D4 /* Debug */,
+				7694D5231E738CA200D671D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7694D4691E737BDF00D671D4"
-               BuildableName = "DemoApp2.app"
-               BlueprintName = "DemoApp2"
+               BlueprintIdentifier = "7694D5111E738CA200D671D4"
+               BuildableName = "DemoTarget.app"
+               BlueprintName = "DemoTarget"
                ReferencedContainer = "container:MyC4FW.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7694D4691E737BDF00D671D4"
-            BuildableName = "DemoApp2.app"
-            BlueprintName = "DemoApp2"
+            BlueprintIdentifier = "7694D5111E738CA200D671D4"
+            BuildableName = "DemoTarget.app"
+            BlueprintName = "DemoTarget"
             ReferencedContainer = "container:MyC4FW.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7694D4691E737BDF00D671D4"
-            BuildableName = "DemoApp2.app"
-            BlueprintName = "DemoApp2"
+            BlueprintIdentifier = "7694D5111E738CA200D671D4"
+            BuildableName = "DemoTarget.app"
+            BlueprintName = "DemoTarget"
             ReferencedContainer = "container:MyC4FW.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7694D4691E737BDF00D671D4"
-            BuildableName = "DemoApp2.app"
-            BlueprintName = "DemoApp2"
+            BlueprintIdentifier = "7694D5111E738CA200D671D4"
+            BuildableName = "DemoTarget.app"
+            BlueprintName = "DemoTarget"
             ReferencedContainer = "container:MyC4FW.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

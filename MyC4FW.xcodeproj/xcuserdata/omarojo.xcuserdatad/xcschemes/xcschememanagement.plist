@@ -4,10 +4,10 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DemoApp2.xcscheme</key>
+		<key>DemoTarget.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
 		<key>MyC4FW.xcscheme</key>
 		<dict>
@@ -23,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>7694D4691E737BDF00D671D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7694D4A41E73858600D671D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7694D5111E738CA200D671D4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

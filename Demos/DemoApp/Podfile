@@ -7,4 +7,5 @@ target 'DemoApp' do
 
   # Pods for DemoApp
   pod 'MyC4FW', :path => '../../'
+#  podspec :path => '../../MyC4FW.podspec'
 end

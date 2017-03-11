@@ -12,29 +12,8 @@
 		7694D43E1E7369EF00D671D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7694D43C1E7369EF00D671D4 /* Main.storyboard */; };
 		7694D4401E7369EF00D671D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7694D43F1E7369EF00D671D4 /* Assets.xcassets */; };
 		7694D4431E7369EF00D671D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7694D4411E7369EF00D671D4 /* LaunchScreen.storyboard */; };
-		7694D45E1E73717300D671D4 /* Pods_DemoApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51F7FFD63AAD5EA4950A5428 /* Pods_DemoApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7694D4601E7371E600D671D4 /* C4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7694D45F1E7371E600D671D4 /* C4.framework */; };
-		7694D4611E7371E600D671D4 /* C4.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7694D45F1E7371E600D671D4 /* C4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7694D4631E7371E600D671D4 /* MyC4FW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7694D4621E7371E600D671D4 /* MyC4FW.framework */; };
-		7694D4641E7371E600D671D4 /* MyC4FW.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7694D4621E7371E600D671D4 /* MyC4FW.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		994F01C6BA5DFC888E10B213 /* Pods_DemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F7FFD63AAD5EA4950A5428 /* Pods_DemoApp.framework */; };
+		8C6007144F2C5EA64FA58E4C /* Pods_DemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F7FFD63AAD5EA4950A5428 /* Pods_DemoApp.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		7694D4531E736A3800D671D4 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				7694D45E1E73717300D671D4 /* Pods_DemoApp.framework in Embed Frameworks */,
-				7694D4641E7371E600D671D4 /* MyC4FW.framework in Embed Frameworks */,
-				7694D4611E7371E600D671D4 /* C4.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		215F6697782D61C10932FEF2 /* Pods-DemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,8 +25,7 @@
 		7694D43F1E7369EF00D671D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7694D4421E7369EF00D671D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7694D4441E7369EF00D671D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7694D45F1E7371E600D671D4 /* C4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = C4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7694D4621E7371E600D671D4 /* MyC4FW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MyC4FW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7694D49F1E7382FF00D671D4 /* Pods_DemoApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_DemoApp.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/DemoApp-hgwftvrilmrftafrilnfxyihxwuh/Build/Products/Debug-iphonesimulator/Pods_DemoApp.framework"; sourceTree = "<group>"; };
 		9A8863DFCAA600B995676DBA /* Pods-DemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,9 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7694D4631E7371E600D671D4 /* MyC4FW.framework in Frameworks */,
-				7694D4601E7371E600D671D4 /* C4.framework in Frameworks */,
-				994F01C6BA5DFC888E10B213 /* Pods_DemoApp.framework in Frameworks */,
+				8C6007144F2C5EA64FA58E4C /* Pods_DemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +44,7 @@
 		3220A1809F958B6412C25692 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7694D49F1E7382FF00D671D4 /* Pods_DemoApp.framework */,
 				51F7FFD63AAD5EA4950A5428 /* Pods_DemoApp.framework */,
 			);
 			name = Frameworks;
@@ -85,8 +62,6 @@
 		7694D42C1E7369EF00D671D4 = {
 			isa = PBXGroup;
 			children = (
-				7694D4621E7371E600D671D4 /* MyC4FW.framework */,
-				7694D45F1E7371E600D671D4 /* C4.framework */,
 				7694D4371E7369EF00D671D4 /* DemoApp */,
 				7694D4361E7369EF00D671D4 /* Products */,
 				3E3344D76B5C77BD73D6FBFD /* Pods */,
@@ -126,7 +101,6 @@
 				7694D4311E7369EF00D671D4 /* Sources */,
 				7694D4321E7369EF00D671D4 /* Frameworks */,
 				7694D4331E7369EF00D671D4 /* Resources */,
-				7694D4531E736A3800D671D4 /* Embed Frameworks */,
 				92D2580E9FFFE93879A3CCAB /* [CP] Embed Pods Frameworks */,
 				8FCB376FD6D914C480CADC5C /* [CP] Copy Pods Resources */,
 			);
@@ -364,7 +338,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 215F6697782D61C10932FEF2 /* Pods-DemoApp.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z9D57CYSLA;
 				INFOPLIST_FILE = DemoApp/Info.plist;
@@ -379,7 +352,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A8863DFCAA600B995676DBA /* Pods-DemoApp.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z9D57CYSLA;
 				INFOPLIST_FILE = DemoApp/Info.plist;
